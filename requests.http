@@ -1,0 +1,29 @@
+### Get products
+
+GET http://localhost:3000/products
+
+### Get a product
+
+GET http://localhost:3000/products/130050671
+
+### Update product category
+
+PUT http://localhost:3000/products/130050671/categories
+Content-Type: application/json
+
+{
+    "categories": [14686337]
+}
+
+### Delete a product
+
+DELETE http://localhost:3000/products/131098732
+
+### Create a product
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "Ojotas"
+}
